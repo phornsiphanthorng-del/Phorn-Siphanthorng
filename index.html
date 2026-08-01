@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phorn Siphanthorng - Academic Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Plus Jakarta Sans', 'Kantumruy Pro', sans-serif; 
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-rose-500 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="border-b border-slate-800/80 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-sm font-bold tracking-wider text-slate-300 uppercase">
+                Phorn Siphanthorng
+            </span>
+            <span class="px-3 py-1 text-xs font-semibold bg-rose-500/10 text-rose-400 border border-rose-500/20 rounded-full">
+                Data Science & AI Engineering
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-12 flex-grow flex flex-col justify-center items-center">
+        
+        <!-- Profile Card -->
+        <div class="w-full bg-slate-900/60 border border-slate-800 rounded-3xl p-8 sm:p-10 shadow-2xl backdrop-blur-sm relative overflow-hidden">
+            <!-- Decorative Accent Background Gradient -->
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-rose-600/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="flex flex-col md:flex-row items-center gap-8 relative z-10">
+                
+                <!-- Profile Image -->
+                <div class="relative shrink-0">
+                    <div class="w-44 h-44 sm:w-48 sm:h-48 rounded-2xl overflow-hidden border-2 border-rose-500/30 shadow-xl shadow-rose-950/40">
+                        <img src="profile.jpg" alt="Phorn Siphanthorng" class="w-full h-full object-cover">
+                    </div>
+                    <!-- Status Badge -->
+                    <div class="absolute -bottom-2 -right-2 bg-slate-950 border border-slate-700 px-3 py-1 rounded-full flex items-center gap-1.5 shadow-md">
+                        <span class="w-2.5 h-2.5 bg-emerald-400 rounded-full animate-pulse"></span>
+                        <span class="text-xs font-medium text-slate-300">Year 1 Student</span>
+                    </div>
+                </div>
+
+                <!-- Info Details -->
+                <div class="text-center md:text-left flex-grow">
+                    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-2">
+                        Phorn Siphanthorng
+                    </h1>
+                    
+                    <p class="text-rose-400 font-semibold text-base mb-4">
+                        Data Science and AI Engineering
+                    </p>
+
+                    <!-- Quote / Tagline -->
+                    <div class="bg-slate-950/50 border-l-4 border-rose-500 p-4 rounded-r-xl mb-6 text-slate-300 text-sm italic leading-relaxed">
+                        “Education is more than a degree; it is the daily discipline of building a mindset ready for the professional world.”
+                    </div>
+
+                    <!-- Key Achievement Highlight -->
+                    <div class="inline-flex flex-col sm:flex-row items-center gap-3 bg-gradient-to-r from-slate-800/80 to-slate-900/80 border border-amber-500/30 px-5 py-3 rounded-2xl">
+                        <div class="flex items-center gap-2">
+                            <span class="text-xl">🏆</span>
+                            <span class="text-xs font-bold uppercase tracking-wider text-amber-400">BacII 2025 Achievement</span>
+                        </div>
+                        <div class="h-4 w-px bg-slate-700 hidden sm:block"></div>
+                        <div class="text-sm font-extrabold text-white">
+                            Grade A <span class="text-amber-400 text-xs font-semibold">(Score: 99.815)</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Future Expansion Placeholder -->
+        <div class="w-full mt-8 border border-dashed border-slate-800/80 rounded-2xl p-6 text-center bg-slate-900/20">
+            <p class="text-slate-500 text-xs sm:text-sm">
+                🚀 More projects and academic milestones will be added here in the future.
+            </p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 py-6 bg-slate-950">
+        <div class="max-w-4xl mx-auto px-6 text-center text-xs text-slate-500">
+            © 2026 Phorn Siphanthorng. Portfolio hosted on GitHub Pages.
+        </div>
+    </footer>
+
+</body>
+</html>
